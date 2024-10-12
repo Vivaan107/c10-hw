@@ -1,0 +1,46 @@
+body {
+    font-family:'Arial',sans-serif;
+    background-color: black;
+    color: beige;
+}
+
+h1 {
+    color: rgb(51, 0, 255);
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(8, 245, 8);
+}
+ul > li {
+    font-weight: bold;
+}
+h1 + p {
+    background-color: rgb(13, 255, 0);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(252, 5, 5);
+}
+ul li:hover {
+    color: red;
+}
+ul li:nth-child(3) {
+    background-color: gray;
+}
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+ul li::before {
+    content: '⚽';
+}
+
+a::after {
+    content:'🥅';
+}
+p::first-letter {
+    font-size: 200%;
+    color:peachpuff;
+}
